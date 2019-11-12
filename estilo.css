@@ -1,0 +1,68 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.vara {
+	height: 70px;
+	width: 15px;
+	background-color: #aaa;
+	margin: auto;
+	position: relative;
+	top: 10px;
+	border-radius: 0px 0px 8px 8px;
+	border: 1px solid #000;
+	border-top: 5px solid #000;
+	z-index: 1000;
+}
+
+img {
+	z-index: 100;
+	transition: all 5s
+}
+
+#dinero {
+	/*position: absolute;*/
+	font-size: 40px;
+	padding: 20px;
+}
+
+/* Extra Small mobile */
+@media (max-width: 399px){
+	body{background-color: purple;}
+	#ruleta{width: 100%;}
+}
+/* Small mobile */
+@media (min-width: 400px){
+	body{background-color: red;}
+	#ruleta{width: 100%;}
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	body{background-color: green;}
+	#ruleta{width: auto;}
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	body{background-color: blue;}
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	body{background-color: pink;}
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	body{background-color: black;}
+}
+/* Mid HD */ 
+@media (min-width: 1720px){
+	body{background-color: brown;}
+}
+/* Larger than Desktop UHD */ 
+@media (min-width:1920px){
+	body{background-color: orange;}
+}
+/* Larger than Desktop RUHD */ 
+@media (min-width:2400px){
+	body{background-color: yellow;}
+}
